@@ -1,6 +1,6 @@
 # Languages
 #   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+#   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
 en:
@@ -20,3 +20,4 @@ en:
 #      - name: 传
 #        url: '#about'
 #        weight: 1
+
