@@ -83,15 +83,15 @@ author:
   name             : "Abodh Poudyal"
   avatar           : "profile.png"
   bio              : |+
-                      "Graduate Research Assistant"
+                      PhD Student
 
-                      "Washington State University"
+                      Washington State University"
   location         : "Pullman, WA"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=NMk39MsAAAAJ"
+  googlescholar    : https://scholar.google.com/citations?hl=en&user=NMk39MsAAAAJ
   email            :
-  researchgate     :  "https://www.researchgate.net/profile/Abodh-Poudyal"
+  researchgate     : https://www.researchgate.net/profile/Abodh-Poudyal
   uri              :
   bitbucket        :
   codepen          :
@@ -99,13 +99,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/abodh"
+  github           : "abodh"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/abodhpoudyal/"
+  linkedin         : "abodhpoudyal"
   orcid            : 
   pinterest        :
   soundcloud       :
