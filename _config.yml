@@ -6,6 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+github                   : [metadata]
 locale                   : "en-US"
 title                    : "Abodh Poudyal"
 title_separator          : "-"
@@ -82,12 +83,10 @@ analytics:
 author:
   name             : "Abodh Poudyal"
   avatar           : "ap.jpg"
-  bio              : |+
-                      PhD Student
-
-                      Washington State University"
+  bio              : |
+                     <i>PhD Student </br> Washington State University</i>
   location         : "Pullman, WA"
-  employer         :
+  employer         : 
   pubmed           : 
   googlescholar    : https://scholar.google.com/citations?hl=en&user=NMk39MsAAAAJ
   email            :
@@ -178,16 +177,22 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  experience:
+    output: true
+    permalink: /:collection/:path/
+  education:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
-  talks:
+  personal:
+    output: true
+    permalink: /:collection/:path/
+  contact:
     output: true
     permalink: /:collection/:path/
 
@@ -212,10 +217,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _experience
   - scope:
       path: ""
-      type: teaching
+      type: experience
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _education
+  - scope:
+      path: ""
+      type: education
     values:
       layout: single
       author_profile: true
@@ -230,23 +244,33 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
+      comments: true
+  # _personal
   - scope:
       path: ""
-      type: talks
+      type: personal
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
+      comments: true
+  # _contact
+  - scope:
+      path: ""
+      type: contact
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
