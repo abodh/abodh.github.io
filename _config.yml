@@ -50,6 +50,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -124,6 +125,7 @@ include:
   - .htaccess
   - _pages
   - files
+  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -174,25 +176,17 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+relative_permalinks: false
 
 # Collections
 collections:
-  experience:
-    output: true
-    permalink: /:collection/:path/
-  education:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  projects:
+  research:
     output: true
     permalink: /:collection/:path/
-  personal:
-    output: true
-    permalink: /:collection/:path/
-  contact:
+  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -217,19 +211,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _experience
+  # _teaching
   - scope:
       path: ""
-      type: experience
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _education
-  - scope:
-      path: ""
-      type: education
+      type: teaching
     values:
       layout: single
       author_profile: true
@@ -244,33 +229,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _projects
+  # _research
   - scope:
       path: ""
-      type: projects
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _personal
+      comment: true
+  # _talks
   - scope:
       path: ""
-      type: personal
+      type: talks
     values:
-      layout: single
+      layout: talk
       author_profile: true
       share: true
-      comments: true
-  # _contact
-  - scope:
-      path: ""
-      type: contact
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
 
 # Sass/SCSS
 sass:
