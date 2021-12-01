@@ -21,14 +21,14 @@ Energy Systems Innovation Center, Pullman, WA
 
 ### 3. Graduate Research Assistant (May 2019 - May 2020)<br>
 <div class="header">
-  <img src="../images/SDlogo.jpg" alt="logo" style="width:50px"/>
+  <img src="../images/SDLogo.jpg" alt="logo" style="width:50px"/>
 South Dakota State University, Brookings, SD 
 </div>
 <hr>
 
 ### 4. Graduate Teaching Assistant (Aug. 2018 - May 2019)<br>
 <div class="header">
-  <img src="../images/SDlogo.jpg" alt="logo" style="width:50px"/>
+  <img src="../images/SDLogo.jpg" alt="logo" style="width:50px"/>
 South Dakota State University, Brookings, SD 
 </div>
 <hr>
