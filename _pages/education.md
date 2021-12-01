@@ -17,7 +17,7 @@ Washington State University, Pullman, WA<br>
 
 ### 2. MS in Electrical Engineering (Aug. 2018 - Aug. 2020)<br>
 <div class="header">
-  <img src="../images/SDlogo.jpg" alt="logo" style="width:50px"/>
+  <img src="../images/SDLogo.jpg" alt="logo" style="width:50px"/>
 South Dakota State University, Brookings, SD 
 </div>
 <hr>
