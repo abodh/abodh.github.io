@@ -49,20 +49,20 @@ interests:
 education:
   - area: PhD Electrical Engineering
     institution: Washington State University, Pullman, WA, USA
-    date_start: 2020-08
-    date_end: 2024-05
+    date_start: 2020-08-10
+    date_end: 2024-05-04
     summary: |
       Thesis: _Resilience Planning and Optimization of Electric Power Systems against Extreme Weather Events._ Supervisor:[Dr. Anamika Dubey](https://anamika-dubey.github.io/).
   - area: MS Electrical Engineering
     institution: South Dakota State University, Brookings, SD, USA
-    date_start: 2018-08
-    date_end: 2020-08
+    date_start: 2018-08-10
+    date_end: 2020-08-09
     summary: |
       Thesis: _Distributed Machine Learning Approach to Fast Frequency Response-based Inertia Estimation in Low Inertia Grids._ Supervisor:[Dr. Timothy M. Hansen](https://www.sdstate.edu/directory/tim-hansen).
   - area: BE Electrical Engineering
     institution: Tribhuvan University, Kathmandu, Nepal
-    date_start: 2012-11
-    date_end: 2016-10
+    date_start: 2012-11-01
+    date_end: 2016-10-01
     summary: |
       Thesis: _Design and Fabrication of a Shunt Active Power Filter for a 3-Phase 4-Wire System Using PQ Theory._ 
 work:
@@ -70,7 +70,7 @@ work:
     company_name: National Renewable Energy Laboratory
     company_url: https://www.nrel.gov/grid/distribution-integration
     company_logo: ''
-    date_start: 2024-03
+    date_start: 2024-03-04
     date_end: ''
     summary: |
       Responsibilities include:
