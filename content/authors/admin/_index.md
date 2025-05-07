@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Abodh Poudyal, Ph.D.
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: A bodh Pou dyal
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Abodh
+last_name: Poudyal
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,65 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Researcher III - Systems Engineering
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: National Renewable Energy Laboratory
+    url: https://www.nrel.gov/grid/distribution-integration
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:abodh.poudyal@ieee.org'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/abodh
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/abodhpoudyal/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=NMk39MsAAAAJ&hl=en
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Power Systems Modeling and Optimization
+  - Power Systems Resilience Assessment
+  - Software Development for Power Systems 
+  - Scalable Algorithm Development for Grid Modernization
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Electrical Engineering
+    institution: Washington State University, Pullman, WA, USA
+    date_start: 2020-08
+    date_end: 2024-05
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Thesis: _Resilience Planning and Optimization of Electric Power Systems against Extreme Weather Events._ Supervisor:[Dr. Anamika Dubey](https://anamika-dubey.github.io/).
+  - area: MS Electrical Engineering
+    institution: South Dakota State University, Brookings, SD, USA
+    date_start: 2018-08
+    date_end: 2020-08
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Thesis: _Distributed Machine Learning Approach to Fast Frequency Response-based Inertia Estimation in Low Inertia Grids._ Supervisor:[Dr. Timothy M. Hansen](https://www.sdstate.edu/directory/tim-hansen).
+  - area: BE Electrical Engineering
+    institution: Tribhuvan University, Kathmandu, Nepal
+    date_start: 2012-11
+    date_end: 2016-10
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis: _Design and Fabrication of a Shunt Active Power Filter for a 3-Phase 4-Wire System Using PQ Theory._ 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Researcher III - Systems Engineering
+    company_name: National Renewable Energy Laboratory
+    company_url: https://www.nrel.gov/grid/distribution-integration
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-03
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Open-source software development for Distribution Edge applications
+      - Technical Assistant for Investor-owned, Cooperative, and Municipal utilities to modernize distribution systems planning practices
+      - Data synthesis and analysis for publicly available datasets including EIA Form 861, FERC Form 1, National Weather Service database, EAGLE-I outage datasets, etc.
+      - Maintain and refactor software repositories within NREL and develop tutorials and extensive documentation for internal and external users
+      - Develop grant proposals for US Department of Energy (DOE) and non-DOE funding announcements and opportunities. 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,15 +87,19 @@ skills:
     items:
       - name: Python
         description: ''
+        percent: 90
+        icon: code-bracket
+      - name: C/C++
+        description: ''
         percent: 80
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
+        percent: 60
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -132,22 +109,27 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
         description: ''
         percent: 80
         icon: camera
+      - name: Painting
+        description: ''
+        percent: 90
+        icon: paint-brush
+      - name: Guitar
+        description: ''
+        percent: 100
+        icon: musical-note
+
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Nepali
+    percent: 100
+  - name: Hindi
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -161,26 +143,8 @@ awards:
     icon: coursera
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Abodh Poudyal is a researcher and software developer in the Distribution Edge group, Grid Planning and Analysis Center (GPAC) at the National Renewable Energy Laboratory (NREL), Golden, Colorado, USA. He has co-developed and contributed to several tools at NREL. His research interests include power systems modeling and optimization, power systems resilience assessment and planning, software development for power systems and artificial intelligence and machine learning applications for grid modernization.
