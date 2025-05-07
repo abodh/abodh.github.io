@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Abodh Poudyal, Ph.D.
+title: Abodh Poudyal
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -44,6 +44,7 @@ interests:
   - Power Grid Resilience
   - Power Grid Modernization
   - Distribution Edge Resources
+  - Graph Theory and Optimization
   - Software Development
   - Scalable Algorithms
 
@@ -53,6 +54,7 @@ education:
     date_start: 2020-08-10
     date_end: 2024-05-04
     summary: |
+      - Minor: Computer Science
       - Thesis: _Resilience Planning and Optimization of Electric Power Systems against Extreme Weather Events._ 
       - Supervisor:[Dr. Anamika Dubey](https://anamika-dubey.github.io/).
   - area: MS Electrical Engineering
