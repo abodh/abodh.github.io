@@ -3,7 +3,7 @@
 title: Abodh Poudyal, Ph.D.
 
 # Name pronunciation (optional)
-name_pronunciation: A bodh Pou dyal
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Abodh
@@ -41,30 +41,33 @@ profiles:
     url: https://scholar.google.com/citations?user=NMk39MsAAAAJ&hl=en
 
 interests:
-  - Power Systems Modeling and Optimization
-  - Power Systems Resilience Assessment
-  - Software Development for Power Systems 
-  - Scalable Algorithm Development for Grid Modernization
+  - Power Grid Resilience
+  - Power Grid Modernization
+  - Distribution Edge Resources
+  - Software Development
+  - Scalable Algorithms
 
 education:
   - area: PhD Electrical Engineering
-    institution: Washington State University, Pullman, WA, USA
+    institution: Washington State University, USA
     date_start: 2020-08-10
     date_end: 2024-05-04
     summary: |
-      Thesis: _Resilience Planning and Optimization of Electric Power Systems against Extreme Weather Events._ Supervisor:[Dr. Anamika Dubey](https://anamika-dubey.github.io/).
+      - Thesis: _Resilience Planning and Optimization of Electric Power Systems against Extreme Weather Events._ 
+      - Supervisor:[Dr. Anamika Dubey](https://anamika-dubey.github.io/).
   - area: MS Electrical Engineering
-    institution: South Dakota State University, Brookings, SD, USA
+    institution: South Dakota State University, USA
     date_start: 2018-08-10
     date_end: 2020-08-09
     summary: |
-      Thesis: _Distributed Machine Learning Approach to Fast Frequency Response-based Inertia Estimation in Low Inertia Grids._ Supervisor:[Dr. Timothy M. Hansen](https://www.sdstate.edu/directory/tim-hansen).
+      - Thesis: _Distributed Machine Learning Approach to Fast Frequency Response-based Inertia Estimation in Low Inertia Grids._ 
+      - Supervisor:[Dr. Timothy M. Hansen](https://www.sdstate.edu/directory/tim-hansen).
   - area: BE Electrical Engineering
-    institution: Tribhuvan University, Kathmandu, Nepal
+    institution: Tribhuvan University, Nepal
     date_start: 2012-11-01
     date_end: 2016-10-01
     summary: |
-      Thesis: _Design and Fabrication of a Shunt Active Power Filter for a 3-Phase 4-Wire System Using PQ Theory._ 
+      - Thesis: _Design and Fabrication of a Shunt Active Power Filter for a 3-Phase 4-Wire System Using PQ Theory._ 
 work:
   - position: Researcher III - Systems Engineering
     company_name: National Renewable Energy Laboratory
@@ -73,7 +76,6 @@ work:
     date_start: 2024-03-04
     date_end: ''
     summary: |
-      Responsibilities include:
       - Open-source software development for Distribution Edge applications
       - Technical Assistant for Investor-owned, Cooperative, and Municipal utilities to modernize distribution systems planning practices
       - Data synthesis and analysis for publicly available datasets including EIA Form 861, FERC Form 1, National Weather Service database, EAGLE-I outage datasets, etc.
