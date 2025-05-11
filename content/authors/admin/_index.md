@@ -87,14 +87,14 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Software Skills
     items:
       - name: Python
         description: ''
-        icon: pythonpython/python-original
+        icon: brand/python
       - name: C/C++
         description: ''
-        icon: file-earmark-code-fill
+        icon: solid/file-code
       - name: Data Science
         description: ''
         icon: chart-bar
