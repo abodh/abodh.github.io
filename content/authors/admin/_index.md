@@ -91,7 +91,7 @@ skills:
     items:
       - name: Python
         description: ''
-        icon: brand/python
+        icon: devicon/python
       - name: C/C++
         description: ''
         icon: code-bracket
