@@ -74,7 +74,7 @@ work:
   - position: Researcher III - Systems Engineering
     company_name: National Renewable Energy Laboratory
     company_url: https://www.nrel.gov/grid/distribution-integration
-    company_logo: ''
+    company_logo: nrel_logo.png
     date_start: 2024-03-04
     date_end: ''
     summary: |
@@ -137,6 +137,9 @@ skills:
       - name: Guitar
         description: ''
         icon: musical-note
+      - name: Chess
+        description: ''
+        icon: puzzle-piece
 
 
 languages:
