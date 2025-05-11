@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Abodh Poudyal
+title: Abodh Poudyal, Ph.D.
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -91,20 +91,19 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 90
-        icon: code-bracket
+        icon: python/python-original
       - name: C/C++
         description: ''
-        percent: 80
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: 80
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: 60
-        icon: circle-stack
+        icon: postgresql/postgresql-original
+      - name: Git
+        description: ''
+        icon: git/git-plain
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
