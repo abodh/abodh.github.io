@@ -95,34 +95,47 @@ skills:
       - name: C/C++
         description: ''
         icon: devicon/cplusplus
-      - name: Data Science
+      - name: Matlab
         description: ''
-        icon: chart-pie
+        icon: devicon/matlab
       - name: SQL
         description: ''
         icon: devicon/sqldeveloper
       - name: Git
         description: ''
         icon: devicon/git
+  - name: Technical Skills
+    items:
+      - name: OpenDSS/CYME
+        description: ''
+        icon: hero/wrench-screwdriver
+      - name: Powerworld
+        description: ''
+        icon: hero/wrench-screwdriver
+      - name: MATPOWER
+        description: ''
+        icon: hero/wrench-screwdriver
+      - name: Pyomo/cvxpy
+        description: ''
+        icon: hero/wrench-screwdriver
+      - name: PSS/E
+        description: ''
+        icon: hero/wrench-screwdriver
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hiking
         description: ''
-        percent: 60
         icon: person-simple-walk
       - name: Photography
         description: ''
-        percent: 80
         icon: camera
       - name: Painting
         description: ''
-        percent: 90
         icon: paint-brush
       - name: Guitar
         description: ''
-        percent: 100
         icon: musical-note
 
 
