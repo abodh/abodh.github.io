@@ -94,16 +94,16 @@ skills:
         icon: devicon/python
       - name: C/C++
         description: ''
-        icon: code-bracket
+        icon: devicon/cplusplus
       - name: Data Science
         description: ''
-        icon: chart-bar
+        icon: chart-pie
       - name: SQL
         description: ''
-        icon: solid/database
+        icon: devicon/sqldeveloper
       - name: Git
         description: ''
-        icon: brands/git
+        icon: devicon/git
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
