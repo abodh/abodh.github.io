@@ -91,16 +91,16 @@ skills:
     items:
       - name: Python
         description: ''
-        icon: devicons/python/python-original
+        icon: brand/python
       - name: C/C++
         description: ''
-        icon: solid/file-code
+        icon: classic/file-code
       - name: Data Science
         description: ''
         icon: chart-bar
       - name: SQL
         description: ''
-        icon: azuresqldatabase/azuresqldatabase-original
+        icon: classic/database
       - name: Git
         description: ''
         icon: git/git-plain
