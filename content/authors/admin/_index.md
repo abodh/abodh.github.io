@@ -94,16 +94,16 @@ skills:
         icon: brand/python
       - name: C/C++
         description: ''
-        icon: classic/file-code
+        icon: code-bracket
       - name: Data Science
         description: ''
         icon: chart-bar
       - name: SQL
         description: ''
-        icon: classic/database
+        icon: solid/database
       - name: Git
         description: ''
-        icon: git/git-plain
+        icon: brands/git
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
