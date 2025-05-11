@@ -91,19 +91,19 @@ skills:
     items:
       - name: Python
         description: ''
-        icon: python/python-original
+        icon: python-original
       - name: C/C++
         description: ''
-        icon: code-bracket
+        icon: code-fill
       - name: Data Science
         description: ''
         icon: chart-bar
       - name: SQL
         description: ''
-        icon: postgresql/postgresql-original
+        icon: sql
       - name: Git
         description: ''
-        icon: git/git-plain
+        icon: git-original
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
