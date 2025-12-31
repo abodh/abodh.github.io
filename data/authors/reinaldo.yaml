@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: reinaldo
+is_owner: false
+name:
+  display: Reinaldo Tonkoski
+  given: Reinaldo
+  family: Tonkoski
+---

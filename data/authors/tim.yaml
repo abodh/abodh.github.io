@@ -1,0 +1,7 @@
+schema: hugoblox/author/v1
+slug: tim
+is_owner: false
+name:
+  display: Timothy M. Hansen
+  given: Timothy M.
+  family: Hansen

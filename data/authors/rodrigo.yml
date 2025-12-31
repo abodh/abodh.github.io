@@ -1,0 +1,7 @@
+schema: hugoblox/author/v1
+slug: rodrigo
+is_owner: false
+name:
+  display: Rodrigo D. Trevizan
+  given: Rodrigo D.
+  family: Trevizan

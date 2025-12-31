@@ -1,0 +1,7 @@
+schema: hugoblox/author/v1
+slug: robert
+is_owner: false
+name:
+  display: Robert Fourney
+  given: Robert
+  family: Fourney

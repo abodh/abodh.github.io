@@ -1,22 +1,26 @@
 ---
-title: 'An example conference paper'
+title: 'Convolutional neural network-based inertia estimation using local frequency measurements'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-authors:
-  - me
-  - Robert Ford
+authors: 
+- me
+- ujjwol
+- rodrigo
+- robert
+- reinaldo
+- tim
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+# author_notes:
+#   - 'Equal contribution'
+#   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2021-06-21T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-12-28T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,16 +28,21 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: 2020 52nd North American Power Symposium (NAPS)
+# publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Increasing installation of renewable energy resources makes the power system inertia a time-varying quantity. Furthermore, converter-dominated grids have different dynamics compared to conventional grids and therefore estimates of the inertia constant using existing dynamic power system models are unsuitable. In this paper, a novel inertia estimation technique based on convolutional neural networks that use local frequency measurements is proposed. The model uses a non-intrusive excitation signal to perturb the system and measure frequency using a phase-locked loop. The estimated inertia constants, within 10% of actual values, have an accuracy of 97.35% and root mean square error of 0.2309. Furthermore, the model evaluated on unknown frequency measurements during the testing phase estimated the inertia constant with a root mean square error of 0.1763. The proposed model-free approach can estimate the inertia constant with just local frequency measurements and can be applied over traditional inertia estimation methods that do not incorporate the dynamic impact of renewable energy sources.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Renewable energy sources
+  - Power system dynamics
+  - Parameter Estimation
+  - Transfer functions
+  - Frequency measurement
+  - Convolutional neural networks
 
 # Display this page in the Featured widget?
 featured: true
@@ -41,50 +50,43 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
+    doi: 10.1109/NAPS50074.2021.9449814
 
 # Custom links
 links:
-  - type: pdf
-    url: ""
+  # - type: pdf
+  #   url: https://ieeexplore.ieee.org/abstract/document/9449814
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
+    url: https://github.com/abodh/Neural_Network_Inertia_Estimation
+  # - type: dataset
+  #   url: https://github.com/HugoBlox/hugo-blox-builder
+  # - type: slides
+  #   url: https://www.slideshare.net/
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: video
-    url: https://youtube.com
+    url: https://ieeexplore.ieee.org/document/9449814
+  # - type: video
+  #   url: https://youtube.com
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+#   - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+# slides: ""
+
 ---
-
-> [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

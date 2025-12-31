@@ -1,116 +1,180 @@
-schema: hugoblox/author/v1
+schema: hugoblox/author/v2
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Abodh Poudyal
+  given: Abodh
+  family: Poudyal
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: 
+
 postnominals:
   - PhD
-  - MIEEE
+  - MSEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: Sr. Software Power Systems Engineer
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Abodh Poudyal is a Senior Software Power Systems Engineer at Electric Power Engineers, LLC, where he leads efforts in developing automated solutions for grid modernization, resilience, and reliability. 
+  Abodh is passionate about advancing the future of power systems through innovative software solutions. With over nine years of experience, Abodh specializes in automating grid operations and developing scalable tools for utilities.  
+  His expertise spans power system analysis, operations research, machine learning, high-performance computing, and software develpoment. Before joining EPE, Abodh worked as a researcher with the National Renewable Energy Laboratory 
+  (now known as the National Laboratory of the Rockies). He is also actively involved as a secretary of the IEEE Modern and Future Distribution Systems Planning Working Group. 
+  
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Electric Power Engineers
+    url: https://epeconsulting.com
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+  - icon: hero/envelope
+    url: mailto:abodh.poudyal@ieee.org
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/abodh
+    label: GitHub
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/abodhpoudyal/
+    label: LinkedIn
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    label: Google Scholar
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Grid Modernization
+  - Grid Resilience
+  - Operations Research
+  - Machine Learning
+  - High-Performance Computing
+  - Software Development
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Electrical Engineering
+    institution: Washington State University, Pullman, WA, USA
+    start: 2020-08-01
+    end: 2024-05-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      - *__Minor__*: Computer Science
+      - *__Thesis__*: *Resilience Planning and Optimization of Electric Power Systems Against Extreme Weather Events*
+      - *__Advisor__*: [Dr. Anamika Dubey](https://anamika-dubey.github.io/)
+
     button:
       text: Download dissertation
-      url: /resume.pdf
+      url: /uploads/abodh_phd_dissertation.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MS Electrical Engineering
+    institution: South Dakota State University, Brookings, SD, USA
+    start: 2018-08-01
+    end: 2020-08-01
+    summary: |
+      - *__Thesis__*: *Distributed Machine Learning Approach to Fast Frequency Response-based Inertia Estimation in Low Inertia Grids Response-based Inertia Estimation in Low Inertia Grids.*<br>
+      - *__Advisor__*: [Dr. Timothy M. Hansen](https://www.engr.colostate.edu/ece/people/timothy-hansen/)<br>
+    button:
+      text: Download dissertation
+      url: /uploads/abodh_ms_dissertation.pdf
+      icon: hero/arrow-down-tray
+  - degree: BE Electrical Engineering
+    institution: Tribuvan University, Lalitpur, Nepal
+    start: 2012-11-01
+    end: 2016-10-01
+    summary: |
+      - *__Thesis__*: "Design and Implementation of a Microcontroller based Solar Inverter with Maximum Power Point Tracking."
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Senior Software Power Systems Engineer
+    org: Electric Power Engineers, Austin, TX, USA
+    start: 2020-07-28
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Leading efforts in developing automated solutions for grid modernization, resilience, and reliability.
+      - Lead development of a python-based scalable Automated Mitigation Module (AMM) product to streamline thermal and voltage violation management for electric utilities.
+      - Serve as Power Distribution Systems Subject Matter Expert (SME) for the ENER-i software development team at EPE.
+      - Facilitate distribution model conversion and validation for utility clients within the ENER-i platform.
+      - Collaborate with engineers to improve usability and user experience for utility planners.
+      - Propose and design new software modules for distribution grid analysis and planning.
+  - role: Researcher III - Systems Engineering
+    org: National Renewable Energy Laboratory (now National Laboratory of the Rockies), Golden, CO, USA
+    start: 2024-03-01
+    end: 2024-07-25
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - led/co-led weather-driven resilience efforts across the laboratory. 
+      - Co-developed several open-source tools for power distribution systems analysis, including resilience analysis, capacity planning, etc.
+      - Co-authored several papers and reports on grid modernization tools and resilience analysis for utilities across the US.
+  - role: Graduate III - Electrical Engineering
+    org: National Renewable Energy Laboratory (now National Laboratory of the Rockies), Golden, CO, USA
+    start: 2023-05-01
+    end: 2024-01-01
+    summary: |
+      - Developed a machine learning model to predict wind-driven outages across a utility territory. 
+      - Contributed on a reconfiguration-based resilience planning model in the North American Energy Resilience Model (NAERM) project.
+      - Helped in conceptualizing and developing capacity expansion tool for power distribution systems.
+  - role: Power Distribution Consultant
+    org: Hitachi Energy, Raleigh, NC, USA
+    start: 2022-05-01
+    end: 2022-08-01
+    summary: |
+      - Developed an Electric Vehicle (EV) Fleet Assessment Tool for fleet owners, customers, and utilities.
+      - Worked in a team to create a customer database to analyze and match the needs of equivalent EV fleets with their diesel counterparts.
+  - role: Graduate Research Assistant
+    org: Washington State University, Pullman, WA, USA
+    start: 2020-08-01
+    end: 2024-05-01
+  - role: Graduate Research and Teaching Assistant
+    org: South Dakota State University, Brookings, SD, USA
+    start: 2018-08-01
+    end: 2020-08-01
 
 skills:
-  - name: Technical Skills
+  - name: Programming Language Skills
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+        level: 4.5
+      - label: C/C++
+        level: 3.5
+      - label: SQL
         level: 4
-  - name: Research & Communication
+      - label: Julia
+        level: 3.5
+  - name: Database and API
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: DuckDB
+        level: 4.5
+      - label: PostgreSQL
+        level: 3.75
+      - label: SQLite
         level: 4
-      - label: Grant Proposals
+      - label: FastAPI, Flask
+        level: 3.75
+  - name: Software Skills
+    items:
+      - label: OpenDSS
+        level: 4.5
+      - label: CYME/Synergi/WindMil
+        level: 3.75
+      - label: MATPOWER, Pandapower
         level: 4
+      - label: Git, GitHub actions, GitHub CI
+        level: 4
+      - label: pandas, numpy, scipy, scikit-learn, pyarrow
+        level: 4.5
+      - label: pyomo, cvxpy
+        level: 4.5
+      - label: folium, plotly, matplotlib
+        level: 4.5
 
 languages:
-  - name: English
+  - name: Nepali
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
+  - name: English
+    level: 4.5
+    label: Fluent
+  - name: Hindi
+    level: 4.5
     label: Fluent
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy
