@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: gayathri
+is_owner: false
+name:
+  display: Gayathri Krishnamoorthy
+  given: Gayathri
+  family: Krishnamoorthy
+---

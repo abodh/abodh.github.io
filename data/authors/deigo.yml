@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: deigo
+is_owner: false
+name:
+  display: Deigo Garcia-Camargo
+  given: Deigo
+  family: Garcia-Camargo
+---

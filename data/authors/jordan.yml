@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: jordan
+is_owner: false
+name:
+  display: Jordan Burns
+  given: Jordan
+  family: Burns
+---

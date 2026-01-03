@@ -60,15 +60,53 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
+    id: papers
     content:
-      title: Recent Publications
-      text: ''
+      title: Journal Articles
+      count: 10
       filters:
         folders:
           - publications
         exclude_featured: false
+        # featured_only: true
+        publication_type: article-journal
     design:
       view: citation
+      spacing:
+        padding: [10px, 10px, 10px, 10px]
+
+  - block: collection
+    # id: papers
+    content:
+      title: Conference Proceedings
+      count: 10
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+        # featured_only: true
+        publication_type: paper-conference
+    design:
+      view: citation
+      spacing:
+        padding: [10px, 10px, 10px, 10px]
+
+  - block: collection
+    # id: papers
+    content:
+      title: Other Publications
+      count: 10
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+        # featured_only: true
+        publication_type: other
+    design:
+      view: citation
+      spacing:
+        padding: [10px, 10px, 10px, 10px]
+
   # - block: collection
   #   id: talks
   #   content:

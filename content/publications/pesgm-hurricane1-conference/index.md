@@ -1,23 +1,21 @@
 ---
-title: 'Convolutional neural network-based inertia estimation using local frequency measurements'
+title: 'Spatiotemporal Impact Assessment of Hurricanes on Electric Power Systems'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors: 
 - me
-- ujjwol
-- rodrigo
-- robert
-- reinaldo
-- tim
+- vishnu
+- deigo
+- anamika
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2021-06-21T00:00:00Z'
+date: '2022-07-17T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-12-28T00:00:00Z'
@@ -28,42 +26,42 @@ publishDate: '2025-12-28T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 2020 52nd North American Power Symposium (NAPS)
+publication: 2022 IEEE Power & Energy Society General Meeting (PESGM)
 # publication_short: In *ICW*
 
-abstract: Increasing installation of renewable energy resources makes the power system inertia a time-varying quantity. Furthermore, converter-dominated grids have different dynamics compared to conventional grids and therefore estimates of the inertia constant using existing dynamic power system models are unsuitable. In this paper, a novel inertia estimation technique based on convolutional neural networks that use local frequency measurements is proposed. The model uses a non-intrusive excitation signal to perturb the system and measure frequency using a phase-locked loop. The estimated inertia constants, within 10% of actual values, have an accuracy of 97.35% and root mean square error of 0.2309. Furthermore, the model evaluated on unknown frequency measurements during the testing phase estimated the inertia constant with a root mean square error of 0.1763. The proposed model-free approach can estimate the inertia constant with just local frequency measurements and can be applied over traditional inertia estimation methods that do not incorporate the dynamic impact of renewable energy sources.
+abstract: Severe windstorms such as hurricanes are the primary cause of extensive power grid damages resulting in widespread customer outages and expensive recovery. This paper aims to develop a probabilistic impact assessment framework to model and quantify the spatiotemporal impacts of windstorms such as hurricanes on the bulk power grid. The variations in hurricane trajectory and wind speed are modeled using historical data from past events in the US. The impacts of individual power grid components are modeled using fragility curves typically obtained using historical outage data. Finally, the system losses are modeled using a loss metric quantifying the total load disconnected due to the impact of the hurricane as it travels inland. The simulation is performed on the 2000-bus synthetic Texas grid mapped on the geographical footprint of Texas. The simulation results show that the loss increases significantly for a few time steps when the hurricane's wind field is intense and saturates gradually when the hurricane's intensity decays while traversing further inland.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Renewable energy sources
-  - Power system dynamics
-  - Parameter Estimation
-  - Transfer functions
-  - Frequency measurement
-  - Convolutional neural networks
+  - Wind speed
+  - Probabilistic logic
+  - Hurricanes
+  - Power grids
+  - Data models
+  - Spatiotemporal phenomena
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.1109/NAPS50074.2021.9449814
+    doi: 10.1109/PESGM48719.2022.9917119
 
 # Custom links
 links:
   # - type: pdf
   #   url: https://ieeexplore.ieee.org/abstract/document/9449814
   - type: code
-    url: https://github.com/abodh/Neural_Network_Inertia_Estimation
+    url: https://github.com/abodh/Hurricane_Flood_WSU/tree/legacy
   # - type: dataset
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: slides
   #   url: https://www.slideshare.net/
-  - type: source
-    url: https://ieeexplore.ieee.org/document/9449814
+  # - type: source
+  #   url: https://ieeexplore.ieee.org/abstract/document/9917119
   # - type: video
   #   url: https://youtube.com
 

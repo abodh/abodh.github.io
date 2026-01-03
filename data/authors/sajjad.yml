@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: sajjad
+is_owner: false
+name:
+  display: Sajjad Uddin Mahmud
+  given: Sajjad Uddin
+  family: Mahmud
+---

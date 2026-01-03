@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: amy
+is_owner: false
+name:
+  display: Amy Mi Nguyen
+  given: Amy Mi
+  family: Nguyen
+---

@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: sherin
+is_owner: false
+name:
+  display: Sherin Ann Abraham
+  given: Sherin Ann
+  family: Abraham
+---

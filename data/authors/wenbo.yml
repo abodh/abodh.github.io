@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: wenbo
+is_owner: false
+name:
+  display: Wenbo Wang
+  given: Wenbo
+  family: Wang
+---

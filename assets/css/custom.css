@@ -4,3 +4,8 @@ section#section-resume-experience div.flex {
 section#section-resume-skills div.grid {
     max-width: 50vw!important ;
 }
+.mt-16 {
+  margin-top: 6px !important; /* Adjust to your desired value */
+}
+
+

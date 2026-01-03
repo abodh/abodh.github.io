@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: jesse
+is_owner: false
+name:
+  display: Jesse Dugan
+  given: Jesse
+  family: Dugan
+---

@@ -16,12 +16,12 @@ main:
   - name: Education & Experience
     url: experience/
     weight: 12
-  - name: Papers
-    url: /publications
-    weight: 20
-  - name: Projects
-    url: /
-    weight: 30
+  - name: Publications
+    url: /#papers
+    weight: 13
+  # - name: Projects
+  #   url: /
+  #   weight: 30
   # - name: Courses
   #   url: /
   #   weight: 40

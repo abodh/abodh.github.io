@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: anamika
+is_owner: false
+name:
+  display: Anamika Dubey
+  given: Anamika
+  family: Dubey
+---

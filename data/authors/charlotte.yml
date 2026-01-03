@@ -1,0 +1,8 @@
+schema: hugoblox/author/v1
+slug: charlotte
+is_owner: false
+name:
+  display: Charlotte Wertz
+  given: Charlotte
+  family: Wertz
+---
